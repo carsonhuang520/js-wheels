@@ -1,0 +1,26 @@
+.slide-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+.slide-wrapper ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  transition: transform 0.5s;
+}
+.slide-wrapper ol > li img {
+  vertical-align: top;
+}
+.slide-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.slide-next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
