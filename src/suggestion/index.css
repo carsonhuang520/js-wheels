@@ -1,0 +1,31 @@
+.suggestion-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.suggestion-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.suggestion-loading {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+.suggestion-wrapper.loading .suggestion-loading {
+  display: block;
+}
+.suggestion-wrapper.loading .suggestion-list {
+  display: none;
+}
+.suggestion-empty {
+  display: none;
+}
+.suggestion-wrapper.empty .suggestion-empty {
+  display: block;
+}
